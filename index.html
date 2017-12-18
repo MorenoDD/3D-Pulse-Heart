@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Pulse Heart | Experiment by Moreno Di Domenico</title>
+    <meta name="description" content="3D Pulse Heart | Experiment by Moreno Di Domenico"/>
+    <meta property="og:title" content="3D Pulse Heart | Experiment by Moreno Di Domenico"/>
+    <meta property="og:image" content="https://morenodd.com/lab/3d-pulse-heart/assets/images/share.jpg"/>
+    <meta property="og:site_name" content="3D Pulse Heart | Experiment by Moreno Di Domenico"/>
+    <meta property="og:description" content="3D Pulse Heart | Experiment by Moreno Di Domenico"/>
+    <meta property="og:url" content="https://morenodd.com/lab/3d-pulse-heart"/>
+    <meta property="og:type" content="Website"/>
+    <meta property="fb:app_id" content="931458706991946"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500|Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+</head>
+
+<body>
+    <div id="mdd-header">
+        <a href="https://morenodd.com/laboratory" class="back">
+            <svg id="icon-arrow" viewBox="0 0 24 24" width="100%" height="100%">
+                <title>arrow</title>
+                <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "></polygon>
+            </svg>
+        </a>
+        <h1>3D Pulse Heart</h1>
+    </div>
+
+    <div id="mdd-share">
+        <a href="#" id="mdd-share--open"><i class="fa fa-share-alt"></i></a>
+        <div id="mdd-share--layer">
+            <a href="#" id="mdd-share--close"></a>
+            <div class="wrapper">
+                <div class="inner">
+                    <div>
+                        <div>
+                            <h3>SHARE ON</h3>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://morenodd.com/lab/3d-pulse-heart" class="md-share"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/share?text=3D%20Pulse%20Heart%20&url=https://morenodd.com/lab/3d-pulse-heart" class="md-share"><i class="fa fa-twitter"></i></a>
+                        </div>
+
+                        <div>
+                            <h3>FIND ME</h3>
+                            <a href="https://facebook.com/itsmorenodd" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://dribbble.com/morenodd" target="_blank"><i class="fa fa-dribbble"></i></a>
+                            <a href="https://github.com/morenodd/" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <script src="assets/scripts/js/three.js"></script>
+    <script src="assets/scripts/js/controls/OrbitControls.js"></script>
+    <script src="assets/scripts/js/loaders/ColladaLoader.js"></script>
+    <script src="assets/scripts/js/libs/dat.gui.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-8408392-25', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
